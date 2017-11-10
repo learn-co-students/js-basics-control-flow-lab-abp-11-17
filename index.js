@@ -1,6 +1,7 @@
 // Write your code in this file!
 let distance;
 let city;
+let tip;
 
 function scuberGreetingForFeet(distance) {
   if (distance <= 400) {
@@ -12,6 +13,20 @@ function scuberGreetingForFeet(distance) {
   }
 }
 
-function ternaryCheckCity() {}
+function ternaryCheckCity(city) {
+  if (city === 'NYC') {
+    return 'Ok, sounds good.';
+  } else {
+    return 'No go.';
+  }
+}
 
-function switchOnCharmFromTip() {}
+function switchOnCharmFromTip(tip) {
+  if (tip === 'generous') {
+    return 'Thank you so much.';
+  } else if (tip === 'not as generous') {
+    return 'Thank you.';
+  } else {
+    return 'Bye.';
+  }
+}
