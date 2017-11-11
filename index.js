@@ -21,4 +21,8 @@ function switchOnCharmFromTip(tip){
     default:
       return "Bye.";
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 14b3c178c6a1ac19d7991a0ef5696c8aa8e114e8
