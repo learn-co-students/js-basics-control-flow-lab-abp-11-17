@@ -9,3 +9,24 @@ function scuberGreetingForFeet(distance){
     return 'No can do.'
   }
 }
+
+function ternaryCheckCity(destination){
+  if (destination == 'NYC') {
+    return 'Ok, sounds good.'
+  }
+  else{
+    return 'No go.'
+  }
+}
+
+function switchOnCharmFromTip(amount){
+  if (amount == 'generous'){
+    return 'Thank you so much.'
+  }
+  else if (amount == 'not as generous') {
+    return 'Thank you.'
+  }
+  else{
+    return 'Bye.'
+  }
+}
